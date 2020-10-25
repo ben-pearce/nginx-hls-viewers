@@ -18,7 +18,7 @@ over HTTP.
 Download with curl and run as a normal python script.
 
 ```shell script
-curl https://raw.githubusercontent.com/ketnipz/nginx-hls-viewers/main/main.py
+curl https://raw.githubusercontent.com/ketnipz/nginx-hls-viewers/main/main.py > main.py
 sudo python3 main.py -I /var/log/nginx/hls_access.log
 ```
 
