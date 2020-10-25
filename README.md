@@ -18,7 +18,7 @@ over HTTP.
 Download with curl and run as a normal python script.
 
 ```shell script
-curl https://github.com/ketnipz/nginx-hls-viewers/main.py
+curl https://raw.githubusercontent.com/ketnipz/nginx-hls-viewers/main/main.py
 sudo python3 main.py -I /var/log/nginx/hls_access.log
 ```
 
@@ -29,9 +29,11 @@ cat /tmp/hls.count
 0
 ```
 
-You may also configure a systemd service to keep this python script running, [click here for an example .service file]().
+You may also configure a systemd service to keep this python script running, 
+[click here for an example .service file](https://raw.githubusercontent.com/ketnipz/nginx-hls-viewers/main/nginx-hls-viewers.service).
 
-To see an example nginx configuration file, [click here]().
+To see an example nginx configuration file, 
+[click here](https://raw.githubusercontent.com/ketnipz/nginx-hls-viewers/main/nginx-hls-viewers.conf).
 
 ## Usage
 
